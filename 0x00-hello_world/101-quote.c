@@ -1,11 +1,13 @@
 #include<stdio.h>
+#include<unistd.h>
 /**
- * main - entry point
+ * main -entry point
  *
- * return: 0 always success
+ * return: 0 success
  */
-int main(void)
+int (void)
 {
-	write(1,"and that piece of art is useful"  - Dora korpar, 2015-10-19 ," 59);
+	write(1,"and that piece of artis useful\", - Dora korpar, 2015-10-19\n",59);
 	return (1);
 }
+
