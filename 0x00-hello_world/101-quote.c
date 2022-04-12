@@ -2,7 +2,7 @@
 #include<unistd.h>
 /**
  * main - entry point
- * 
+ * task fputs
  * Return: 1
  */
 int main(void)
