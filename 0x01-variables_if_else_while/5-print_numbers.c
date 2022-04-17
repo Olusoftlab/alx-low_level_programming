@@ -7,12 +7,12 @@
 
 int main(void)
 {
-	int digit_number;
+	int digits;
 
 
-for (digit_numbers = 0 ; digit_numbers <= 9 ;; digit_numbers++)
+for (digits = 0 ; digits <= 9 ;; digits++)
 {
-	printf("%d", digit_numbers);
+	printf("%d", digits);
 }
 
 printf("\n");
