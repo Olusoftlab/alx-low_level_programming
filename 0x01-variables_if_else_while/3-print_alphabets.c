@@ -7,7 +7,7 @@
 
 int main(void)
 {
-	char apha_lowercase;
+	char alpha_lowercase;
 	char alpha_uppercase;
 
 for (alpha_lowercase = 'a'; alpha_lowercase <= 'z'; alpha_lowercase++)
