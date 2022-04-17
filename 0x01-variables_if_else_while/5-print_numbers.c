@@ -7,9 +7,10 @@
 
 int main(void)
 {
-	int digit_numbers;
+	int digit_number;
 
-for (digit_numbers = 0; digit_numbers <= 9;; digit_numbers++)
+
+for (digit_numbers = 0 ; digit_numbers <= 9 ;; digit_numbers++)
 {
 	printf("%d", digit_numbers);
 }
