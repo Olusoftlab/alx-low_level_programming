@@ -11,7 +11,7 @@ int main(void)
 
 for (digit_numbers = 0; digit_numbers <= 9;; digit_numbers++)
 {
-	printf(digit_numbers);
+	printf("%d", digit_numbers);
 }
 
 printf('\n');
