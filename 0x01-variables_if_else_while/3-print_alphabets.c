@@ -12,12 +12,17 @@ int main(void)
 
 for (alpha_lowercase = 'a'; alpha_lowercase <= 'z'; alpha_lowercase++)
 {
-	putchar(alpha_lowercase);
-	for (alpha_uppercase = 'A'; alpha_uppercase <= 'Z'; alpha_uppercase++)
-		putchar(alpha_uppercase);
+putchar(alpha_lowercase);
+}
+
+
+for (alpha_uppercase = 'A'; alpha_uppercase <= 'Z'; alpha_uppercase++)
+{
+	putchar(alpha_uppercase);
 }
 
 putchar('\n');
 
 return (0);
-}		
+
+}
