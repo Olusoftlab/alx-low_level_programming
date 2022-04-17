@@ -14,7 +14,7 @@ for (digit_numbers = 0; digit_numbers <= 9;; digit_numbers++)
 	printf("%d", digit_numbers);
 }
 
-printf('\n');
+printf("\n");
 
 return (0);
 }
