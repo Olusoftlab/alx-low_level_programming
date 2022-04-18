@@ -28,4 +28,4 @@ for (num1 = 48; num1 < 57; num1 ++)
 putchar('\n');
 
 return (0);
-i}
+}
