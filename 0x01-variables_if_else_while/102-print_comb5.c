@@ -24,17 +24,17 @@ for (c = 48; c <= 57; c++)
 					putchar(' ');
 					putchar(k);
 					putchar(j);
-				}
 
-				if (c + i + k + j == 227 && c == 57)
-				{
-					break;
-				}
+					if (c + i + k + j == 227 && c == 57)
+					{
+						break;
+					}
 
-				else
-				{
-					putchar(',');
-					putchar(' ');
+					else
+					{
+						putchar(',');
+						putchar(' ');
+					}
 				}
 			}
 		}
@@ -45,3 +45,8 @@ putchar('\n');
 
 return (0);
 }
+
+					
+
+
+					
