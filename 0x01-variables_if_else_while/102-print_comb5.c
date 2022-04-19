@@ -27,13 +27,13 @@ for (c = 48; c <= 57; c++)
 
 				if (c + i + k + j == 227 && c == 57)
 				{
-					break;
+				break;
 				}
 
 				else
 				{
-					putchar(',');
-					putchar(' ');
+				putchar(',');
+				putchar(' ');
 				}
 				}
 			}
