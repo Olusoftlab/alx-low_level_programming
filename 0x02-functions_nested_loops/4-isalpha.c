@@ -2,6 +2,7 @@
 /**
  * _isalpha - check for alphabet
  * @cc: letter being tested
+ * Return: 1 for either alphabet and 0 if found
  */
 
 int _isalpha(int c)
