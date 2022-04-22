@@ -1,19 +1,15 @@
 #include  "main.h"
 /**
- * main entry point
+ * print alphabet- print alphabet in lowers
  *
- * Return: 0 success
+ * Return: void
  */
 
-int main(void)
+void print_alphabet(void)
 {
 	char c;
-
-for (c = 'a'; c <= 'z'; c++)
-{
-	_putchar(c);
+	for (c = 'a'; c <= 'z'; c++)
+		_putchar(c);
+	_putchar('\n');
 }
 
-_putchar('\n');
-return(0);
-}
