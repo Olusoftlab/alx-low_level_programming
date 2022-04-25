@@ -1,9 +1,10 @@
 #include<stdio.h>
 /**
- * main - print all natural numbers  less
- * separated by a comma
- * Return: 0 always
+ * main - prints first 50 fibonacci numbers starting with....
+ *   separated by comma
+ * Return: 0 alwats
  */
+
 
 int main(void)
 {
@@ -14,7 +15,7 @@ int main(void)
 	{
 		sum = fib1 + fib2;
 
-		printf("%d", sum);
+		printf("%lu", sum);
 
 		fib1 = fib2;
 		fib2 = sum;
