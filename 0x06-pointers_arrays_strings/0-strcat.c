@@ -1,16 +1,16 @@
 #include "main.h"
 /**
- * _strcat - a function that concatenate two strings
- * @dest: str1
- * @src: str2
- * Return: wo strings
+ * _strcat - add two strings
+ * @ddest: cp
+ * @src: kdkd
+ * Return: two concat str
  */
 
 char *_strcat(char *dest, char *src)
 {
 	int i, n;
 
-	for (i = 0; dest[i] != '\0'; i++)
+	for (i = 0; dest[i] != '\0' i++)
 	{
 	}
 
