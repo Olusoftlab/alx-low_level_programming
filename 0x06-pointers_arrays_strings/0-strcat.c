@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * _strcat - add two strings
- * @ddest: cp
+ * @dest: cp
  * @src: kdkd
  * Return: two concat str
  */
