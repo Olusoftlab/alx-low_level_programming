@@ -1,36 +1,22 @@
 #include "main.h"
-#include<stdio.h>
-#include<stdlib>
 /**
- * str_concat - cnca two strings
- * @s1: string1
- * @s2: string2
- * Return: NULL If failure
+ * _strcat - a function that concatenate two strings
+ * @dest: str1
+ * @src: str2
+ * Return: wo strings
  */
 
-char *str_concat(char *s1, char *s2)
+char *_strcat(char *dest, char *src)
 {
-	char *s;
-	int a, b, c, d;
+	int i, n;
 
-	if (s1 == 0)
-		s1 = "";
-	if (s2 == 0)
-		s2 = "";
-	for (a = 0; s1[a] != '\0'; a++)
-		;
-	for (b = 0; s2[b] != '\0'; b++)
-		;
-	b++;
-	s = malloc(a * sizeof(*s1) + b * sizeof(*s2));
-	if (s == 0)
-		return (NULL);
-	for (c = 0, d = 0; c < a + b; c++)
+	for (i = 0; dest[i] != '\0'; i++)
 	{
-		if (c < a)
-			s[c] = s1[c];
-		else
-			s[c] = s2[d++];
 	}
-	return (s);
-i}
+
+	for (n = 0; (dest[i + n] = *src++) != '\0'; n++)
+	{
+	}
+
+	return (dest);
+}
