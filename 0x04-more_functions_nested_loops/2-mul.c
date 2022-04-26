@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * mul - output mul 
+ * mul-ioutput mul
  * @a: first number
  * @b: sec number
  *
